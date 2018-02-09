@@ -1,70 +1,40 @@
-@import url("components/avatars.css");
-@import url("components/cadre.css");
-@import url("components/buttons.css");
+@import url("components/employee.css");
 @import url("components/card.css");
 @import url("components/banner.css");
+@import url("components/partners.css");
+@import url("components/navbar.css");
+@import url("components/footer.css");
+@import url("components/margins.css");
+@import url("components/section.css");
 
-h1 {
-  color: #AECFCE;
-  font-size: 30px;
-  font-family: 'Indie Flower', cursive;
-
+.flex-left {
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
-
-
-body {
-  background-color: #FDB5B7;
-  font-family: 'Lato', sans-serif;
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/*p {
-  font-weight: bold;
-}*/
-
-#avatar {
-  width: 100px;
+.flex-right {
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }
 
-.network {
-  width: 50px;
+.items-center {
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
-#abstract {
-  font-weight: bold;
+p {
+  font-size: 17px;
 }
 
-.shadow {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+h2, h3, h4 {
+  color:  rgb(0,169,157) !important;
 }
-
-.icon-network {
-  font-size: 70px;
-  color: #AECFCE;
-  text-decoration: none;
-}
-
-
-h4 {
-  background-color: red;
-  height: 50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
