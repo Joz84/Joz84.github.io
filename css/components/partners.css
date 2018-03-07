@@ -1,10 +1,11 @@
 .partners {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .partner {
   height: 70px;
+  margin: 10px;
 }

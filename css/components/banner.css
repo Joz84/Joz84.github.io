@@ -45,3 +45,12 @@
   background-attachment: fixed;
 }
 
+.banner-mobile {
+  background-color: #AEDDD8;
+  color: white;
+  height: calc(100vh);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}

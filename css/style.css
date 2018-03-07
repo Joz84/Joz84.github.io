@@ -6,7 +6,7 @@
 @import url("components/footer.css");
 @import url("components/margins.css");
 @import url("components/section.css");
-
+@import url("components/contact.css");
 .flex-left {
   display: flex;
   align-items: center;
